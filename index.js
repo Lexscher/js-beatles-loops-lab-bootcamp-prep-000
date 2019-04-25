@@ -6,10 +6,21 @@ function theBeatlesPlay(museArr, insArr) {
   return arr;
 }
 
+function johnLennonFacts(arr) {
+  let x = 0;
+  while (x < arr.length) {
+    arr[x] += '!!!';
+    x++;
+  }
+  return arr;
+}
+
+
 function iLoveTheBeatles(num) {
   let luv = [];
   do {
-    
-  } while ();
-  return;
+    luv.push("I love the Beatles!");
+    ++num;
+  } while (num < 15);
+  return num;
 }
